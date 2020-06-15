@@ -5,9 +5,10 @@
 module.exports = {
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb+srv://<username>:<password>@cluster0-q5fcm.mongodb.net/test?retryWrites=true&w=majority'
+    uri: 'mongodb+srv://venk519:Suneetha147!@cluster0-3p0id.mongodb.net/social_login?retryWrites=true&w=majority'
   },
-
+  
+  
 
 email:'test@test.com', // email configure for node-mailer
 password:'Test@123',    // password configure for node-mailer

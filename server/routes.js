@@ -16,8 +16,8 @@ module.exports = function(app) {
   
   app.use(express.static(path.join(__dirname, './static'))); // server side files rendering 
   app.use(express.static('./static/'));
-  app.get('/', getIndexFile); // get index file
-  app.get('/*', getAllFiles); // get all files
+  //app.get('/', getIndexFile); // get index file
+//app.get('/*', getAllFiles); // get all files
 
   function getIndexFile(request, response) {
     response.sendFile(path.resolve('./static/index.html'));
